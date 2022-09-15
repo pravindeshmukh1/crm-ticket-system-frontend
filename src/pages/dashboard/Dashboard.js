@@ -2,9 +2,11 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import TicketTable from "./TicketTable";
 import tickets from "../../assets/data/dummy-tickets.json";
+import Breadcrumbs from "../../components/breadcrumb/Breadcrumb";
 function Dashboard() {
   return (
     <div>
+      <Breadcrumbs page="Dashboard" />
       <Card className="text-center">
         <Card.Header className="">
           <Card.Text>Total Ticket : 50</Card.Text>

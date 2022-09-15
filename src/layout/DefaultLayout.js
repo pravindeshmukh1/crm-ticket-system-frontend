@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import Footer from "./partials/Footer";
 import Header from "./partials/Header";
 
@@ -8,7 +9,9 @@ function DefaultLayout({ children }) {
       <div className="header">
         <Header />
       </div>
-      <div className="main">{children}</div>
+      <Container fluid className="main mt-4">
+        {children}
+      </Container>
       <div className="footer">
         <Footer />
       </div>
