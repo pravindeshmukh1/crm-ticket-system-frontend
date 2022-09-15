@@ -1,0 +1,7 @@
+.defaultLayout{
+    display: grid;
+
+}
+.main{
+min-height: 85vh;
+}
